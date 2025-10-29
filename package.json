@@ -1,0 +1,14 @@
+{
+  "name": "fer202-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack React and Node.js application",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm start",
+    "dev": "echo 'Run backend and frontend in separate terminals'"
+  },
+  "keywords": ["react", "nodejs", "express", "fullstack"],
+  "author": "",
+  "license": "ISC"
+}
